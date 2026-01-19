@@ -1,0 +1,113 @@
+.ui_nav {
+	background: #ccc;
+	border: 5px solid white; 
+	width: 128px; 
+	height: 260px;
+	font-family: Inter, Helvetica, Arial, FreeSans, sans-serif;
+}
+
+.ui_nav_sitename {
+	background: #000;
+	color: #fff;
+	width: 32px;
+	height: 270px;
+	position: relative;
+	top: -5px;
+	left: -5px;
+	font-weight: bold;
+}
+
+.ui_nav_sitename_text {
+	transform: rotate(-90deg); 
+	position: relative; 
+	top: 230px; 
+	left: 0;
+}
+
+.ui_nav_pages {
+	width: 32px; 
+	height: 224px; 
+	position: absolute; 
+	left: 50%; 
+	top: 50%;
+	transform: translateY(-50%); 
+	background: #fff;
+}
+
+.ui_nav_pages_link, .ui_nav_pages_names_box {
+	width: 32px; 
+	height: 32px; 
+	display: block;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ui_nav_pages_link:hover, .ui_nav_pages_names_box:hover {
+	background: #fff;
+	color: #000;
+}
+.ui_nav_pages_link:hover img {
+	filter: invert(100%);
+}
+.ui_nav_pages_comics:hover img {
+	filter: invert(0%);
+}
+
+.ui_nav_pages_home{background: #5fbcd3;}
+.ui_nav_pages_portfolio{background: #c0f;}
+.ui_nav_pages_comics{background: #fc0; color: #000;}
+.ui_nav_pages_videos{background: #000;}
+.ui_nav_pages_chardb{background: #d40000;}
+.ui_nav_pages_abt{background: #44aa00;}
+.ui_nav_pages_contact{background: #06f;}
+
+div:has(.ui_nav_pages_home:hover) .ui_nav_pages_home,
+div:has(.ui_nav_pages_portfolio:hover) .ui_nav_pages_portfolio,
+div:has(.ui_nav_pages_comics:hover) .ui_nav_pages_comics,
+div:has(.ui_nav_pages_videos:hover) .ui_nav_pages_videos,
+div:has(.ui_nav_pages_chardb:hover) .ui_nav_pages_chardb,
+div:has(.ui_nav_pages_abt:hover) .ui_nav_pages_abt,
+div:has(.ui_nav_pages_contact:hover) .ui_nav_pages_contact {
+	background: #ccc;
+	color: #000;
+}
+
+.ui_nav_pages_link:active, .ui_nav_pages_names_box:active, .ui_nav_onit {
+	background: #ffcccc;
+	color: #000;
+}
+
+.ui_nav_container {
+	top: 50%;
+	left: 0;
+	position: absolute;
+	transform: translateY(-50%);
+	display: block;
+}
+
+.ui_nav_box {
+	background:url(../images/uinter/navbar/photos/trip.gif);
+	color: #000;
+	border: 5px solid white;
+	width: 124px;
+	height: 124px;
+	bottom: 10px;
+	left: 128px;
+	position: relative;
+}
+
+.ui_nav_ncities {
+	width: 124px;
+	position: absolute;
+	top: 280px;
+	filter:invert(100%);
+	left: 50%;
+	transform:translateX(-50%);
+}
+
+.ui_nav_ncities:hover {
+	filter:invert(0%);
+}
