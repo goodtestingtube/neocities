@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://badbunsen.neocities.org</loc>
-		<lastmod>2026-01-19T10:23:00-05:00</lastmod>
+		<lastmod>2026-03-05T01:18:27+00:00</lastmod>
 		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://badbunsen.neocities.org/socials</loc>
+		<lastmod>2026-03-05T01:18:27+00:00</lastmod>
+		<priority>0.8</priority>
 	</url>
 </urlset>
