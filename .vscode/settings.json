@@ -1,0 +1,7 @@
+{
+    "chat.agent.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "inlineChat.accessibleDiffView": "off",
+    "gitlab.duoChat.enabled": false,
+    "terminal.integrated.initialHint": false
+}
