@@ -1,82 +1,121 @@
-<!doctype html>
+<!DOCTYPE html?>
+<!-- specify that yes, i do speak english... 
+ or whatever language is there idk -->
 <html lang="en">
+	<head>
+		<!-- this is obvious-->
+		<title>badbunsen</title>
+		<!--description-->
+			<meta name="description" 
+			content="Visual artist Aleph Diallo's very own website, featuring his portfolio, art he has created and an assortment of other links where you can find him.">
+			<meta property="og:description" 
+			content="Visual artist Aleph Diallo's very own website, featuring his portfolio, art he has created and an assortment of other links where you can find him.">
+		<!--end description-->
+		<!--keywords-->
+			<meta name="keywords" 
+			content="aleph diallo,badbunsen,badbunsen.com,graphic design,graphic design is my passion,graphic design portfolio,portfolio,my portfolio,portfolio website,art portfolio,animation,animated videos">
+		<!--end keywords-->
+		<!-- 100% on all fronts -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!-- I hate this -->
+		<link rel="stylesheet" href="/style.css">
+		<style>
+			.fakelink {
+				font-family: "FLW Script";
+				font-size: 150%;
+				line-height: 12%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!--note to self: make mobile ver of style later.-->
+			
+			<!-- wordmark-->
+			<img src="/assets/grfx/navui/wm_black.png"
+			alt="this is badbunsen.com" id="wm">
+			<!-- end wordmark -->
 
-<head>
-<title>aleph diallo, aka badbunsen</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<style>body{background: #000;color: #fff}a:link,a:hover,a:active,a:visited{color:#0ff;font-weight:bold}a:hover{color:#99FFFF}a:active{color:#f00}a:visited{color:#f0f}a:visited:hover{color:#fcf}a:visited:active{color:#f00}.home{font-family:Arial, Helvetica, sans-serif;}</style>
+			<!--this is a navbar--><div id="nav">
+				<div class="spacer" id="nav_spacer"></div> 
+				<!--greatest html of all time ik-->
+				<p id="navlink_container">
+					<a href="/index.html" 
+					class="navlink"
+					id="nav_who">
+					who</a> <!--go to index-->
+					<a href="/gallery/" 
+					class="navlink"
+					id="nav_what">
+					what</a> <!--portfolio & personal gallery-->
+					<a href="/contact/" 
+					class="navlink"
+					id="nav_where">
+					where</a>
+				</p> <!--socials & contact-->
+				<!-- rippin off vaughan one step at a time -->
+			</div><!--that was a navbar-->
+			
+			<!-- cool separator -->
+			<img src="assets/grfx/navui/separator_b.gif" 
+			id="separator">
+			<!-- separator no more -->
 
-<!--description--><meta name="description" content="Visual artist Aleph Diallo's very own website, featuring his portfolio, art he has created and an assortment of other links where you can find him.">
-<meta property="og:description" content="Visual artist Aleph Diallo's very own website, featuring his portfolio, art he has created and an assortment of other links where you can find him."><!--end description-->
-
-<!--keywords-->
-<meta name="keywords" content="aleph diallo,badbunsen,badbunsen.com,graphic design,graphic design is my passion,graphic design portfolio,portfolio,my portfolio,portfolio website,art portfolio,animation,animated videos">
-<!--end keywords-->
-</head>
-
-<body class="home"><center>
-<p style="width:13rem; margin: auto;"><img src="finish.jpg"alt="I really wish I were finished right now." style="width:13rem;"><small>&copy; Paramount Media Networks</small></p>
-<p>procastination is a bitch... I'll get to updating this site with content eventually one way or another trust. poop.</p>
-<h1>aleph diallo is badbunsen,</h1>
-<p>a graphic designer, illustrator, cartoonist and amateur animator from brooklyn.<br>
-he is currently a teenage student majoring in graphic design.<br>aleph also enjoys making websites in his spare time. this is one such site.
-<br>you can shoot him an email, if you'd like: sayhi at badbunsen dot com</p>
-
-<p><small>not to be confused with: bad bunny, bunsen and beaker, bunsen is a beast, so on.</small></p>
-
-<p>below are some links to pages on the site. feel free to explore...</p>
-
-<p>
-<small>* = under construction</small><br>
-
-<!--i'm not radiohead signed to fucking emi over here
-<a href="local/"><i>local</i></a>*<br>
-<small>(the meat of the site, a maze of links, images and artwork)</small><br>
-
-<a href="express/"><i>express</i>way</a>*<br>
-<small>(essentially a sitemap for the local directory)</small><br>-->
-
-<a href="port/"><i>port</i>folio</a>*<br>
-<small>(for clients)</small><br>
-
-<a href="illus/"><i>illus</i>trations</a>*<br>
-<small>(not just illustrations, also sketches, doodles and other stuff that I draw)</small><br>
-
-<a href="char/"><i>char</i>acters</a>*<br> 
-<small>(that I made<!--, separated from local for my convenience-->)</small><br>
-
-<a href="socials.htm"><i>socials</i></a><br>
-<small>(other places where i create stuff online)</small>
-<!--end links-->
-</p>
-
-<p>
-<!--footer-->
-<img src="siteside/bbbutton.gif" alt="badbunsen button"/>
-<a href="https://neo-neighborhoods.neocities.org/SoHo/residence" target="_blank"><img src="siteside/sohobutton.gif" alt="neocities soho"/></a><br>
-
-<a href="https://baccyflap.com/noai/?prv&s=bad" target="_blank">&lt;</a> <a href="https://baccyflap.com/noai" target="_blank">no ai webring</a> <a href="https://baccyflap.com/noai/?rnd" target="_blank">(rnd)</a> <a href="https://baccyflap.com/noai/?nxt&s=bad" target="_blank">&gt;</a>
-<br><br>
-
-<small>(unless noted) all graphics &copy; aleph diallo. all lefts, rights and wrongs reserved.
-<br>
-this site is best viewed on a desktop. mobile will work somewhat, but a desktop is much more optimal</small>
-<!--end footer-->
-</p>
-
-<p>
-<!--site hit counter-->
-<script src="siteside/visitors.js"></script>
-<span class="visitor-count"></span>
-<span id="message"></span>
-<script>document.getElementById("message").innerHTML = (" have visited this site in some capacity out of boredom.")</script>
-<!--end site hit counter-->
-</p></center>
-
-<!--<script>
-  if (navigator.userAgent === "Screenjesus") {
-    document.body.innerHTML = '<img src="/img/thumb.png" style="width:100vw;height:100vh;object-fit:cover;">';
-  }
-</script>-->
-</body>
+			<!--everything else!-->
+			<div id="main">
+				<h1 id="pagetitle">This is badbunsen.com</h1>
+				<span id="contentstart"></span>
+				<p>
+					<small>*well... it <i>was</i> badbunsen.com...</small>
+				</p>
+				<p>
+					<!--cool pic-->
+					<img src="assets/grfx/avatar/bah.png" 
+					style="max-width:272.5px; max-height:253px; height: 50%;">
+				</p>
+				<p>
+					<b><i>Badbunsen</i></b> is a site by 
+					<b><i>Aleph Diallo</i></b> (me) that catalogs his 
+					personal works and professional portfolio. He
+					is currently a high school sophomore majoring
+					in graphic design, mainly thanks to his love for
+					drawing and illustration. During his spare time, 
+					he creates character designs and writes code for
+					websites like this one.
+				</p>
+				<p>
+					<b>If you're confused about how this website is laid out,
+					PLEASE read everything below.</b> If you think you can figure
+					it out, though, feel free to skip it and head into whichever
+					section you want.
+				</p>
+				<p>
+					Next to this box (hopefully) is a scrollbar. In most cases,
+					the scrollbar is there so you can scroll through pages like this
+					without losing track of the navigation links to the side 
+					(the big grayish box next to the separator).
+				</p>
+				<p>
+					This site is comprised of three sections. The 
+					"<span class="fakelink">who</span>" section doubles 
+					as the homepage and the about page. You are currently
+					within this section. The 
+					"<span class="fakelink">what</span>" section contains 
+					anything and everything on this site that doesn't 
+					describe me or links to where I can be contacted. Mostly
+					artwork, but other than that anything goes. The 
+					"<span class="fakelink">where</span>" section links to 
+					my contact handle (in regards to this website and my work)
+					and other sites where I can be found.
+				</p>
+				<p>
+					I'll admit that this site is far from perfect, but its 
+					goal is to be a playground for whatever I'd like to do
+					first and a portfolio second. I hope to accomplish these
+					two things successfully.
+				</p>
+			</div>
+			<!--end everything-->
+		</div>
+	</body>
 </html>

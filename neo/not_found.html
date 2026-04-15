@@ -1,39 +1,80 @@
-<!doctype html>
+<!DOCTYPE html?>
+<!-- specify that yes, i do speak english... 
+ or whatever language is there idk -->
 <html lang="en">
-<head>
-<title>not_found</title>
-<meta name="viewport"content="width=device-width,initial-scale=1.0">
-<style>
-	.fucked {
-		position: absolute;
-		font-family: 'Times New Roman', Times, serif;
-		width: 360px;
-		font-size: 28px;
-	}
-	body {
-		background: #c00;
-	}
-</style>
-</head>
-<body>
-<div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);">
-<h1 class="fucked">missing msiing mnissing missing missing missing missing missingm issing missing missing missing missinmg. missisng. missing. missing. meissing. missing. </h1>
-<h1 class="fucked" style="top:2px; left: 3px;">missin missing missing missing missing missing missing misguhnng missing missign m,sissing msising misdsing missing missing missing missing missin msisngi missing</h1>
-<h1 class="fucked" style="top:-2px; left: 5px;">missing ,. missiting. mitins. mising. missing. missing. missing.m issing. nussubg nussung missing missing missing missin missing missing missing missing imissing</h1>
-<h1 class="fucked" style="top:5px; left: 10px;">missing msising missing missing missing misssing missing msisngi missing missing missing missing missing missing missing missing missing missing missing msising missi</h1>
-</div>
+	<head>
+		<!-- this is obvious-->
+		<title>404 on badbunsen</title>
+		<!-- 100% on all fronts -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!-- I hate this -->
+		<link rel="stylesheet" href="/style.css">
+		<style>
+			.fakelink {
+				font-family: "FLW Script";
+				font-size: 150%;
+				line-height: 12%;
+			}
+			body {
+				background: #c33;
+				color: #fff;
+			}
+			.container {
+				background: url("/assets/grfx/navui/bg_red.gif")
+				no-repeat;
+			}
+			#main a:link {
+				color: #0ff;
+			}
+			#main a:visited {
+				color: #00f;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!--note to self: make mobile ver of style later.-->
+			
+			<!-- wordmark-->
+			<img src="/assets/grfx/navui/wm_white.png"
+			alt="this is badbunsen.com" id="wm">
+			<!-- end wordmark -->
 
-<p>
-<a href="/"
-style="font-size: 48px; 
-position: fixed; 
-top: 50%; left: 50%; transform:translate(-50%, -50%) rotate(90deg);
-color: #00c; font-weight: bold;
-background: #f99;
-font-style: italic;
-font-family: Arial, Helvetica, sans-serif;">not_<br>found.html</a>
-</p>
+			<!--this is a navbar--><div id="nav">
+				<div class="spacer" id="nav_spacer"></div> 
+				<!--greatest html of all time ik-->
+				<p id="navlink_container">
+					<a href="/index.html" 
+					class="navlink"
+					id="nav_who">
+					who</a> <!--go to index-->
+					<a href="/gallery/" 
+					class="navlink"
+					id="nav_what">
+					what</a> <!--portfolio & personal gallery-->
+					<a href="/contact/" 
+					class="navlink"
+					id="nav_where">
+					where</a>
+				</p> <!--socials & contact-->
+				<!-- rippin off vaughan one step at a time -->
+			</div><!--that was a navbar-->
+			
+			<!-- cool separator -->
+			<img src="assets/grfx/navui/separator.gif" 
+			id="separator">
+			<!-- separator no more -->
 
-maybe it was here at some point, but now it's probably lost to time. check the wayback machine or check if the page moved by clicking the link below.
-</body>
+			<!--everything else!-->
+			<div id="main">
+				<h1 id="pagetitle">404: Page not found</h1>
+				<span id="contentstart"></span>
+				<p>Aw! There's nothing here. It might've been 
+					moved or deleted. Or it never existed. Who 
+				knows.</p>
+				<p>There is good news though! <a href="/index.html">You can go home</a>!</p>
+			</div>
+			<!--end everything-->
+		</div>
+	</body>
 </html>

@@ -1,0 +1,93 @@
+body {
+	background: #fff;
+	color: #000;
+	font-family: 'Times New Roman', Times, serif;
+}
+img {
+	image-rendering: pixelated;
+}
+.container {
+	background: url("assets/grfx/navui/bg_white.gif")
+	no-repeat;
+	width: 100%;
+	height: 100%;
+}
+@font-face {
+  font-family: "FLW Script";
+  src:
+    local("FLW Script"),
+    url("assets/fonts/flwscrp.woff") format("woff"),
+	url("assets/fonts/flwscrp.woff2") format("woff2");
+}
+#separator {
+	position: absolute;
+	top: 32px;
+	left: 212px;
+	display: block;
+}
+.spacer {
+	display: block;
+}
+#nav_spacer {
+	width:150px;
+	height:17px;
+}
+#wm {
+	position: absolute;
+	top: 35px;
+	left: 63px;
+	image-rendering: auto;
+}
+#main {
+	position: absolute;
+	top: 0px;
+	left: 228px;
+	width: calc(100% - 232px);
+	height: 100%;
+	overflow-y: scroll;
+}
+#pagetitle {
+	font-family: "FLW Script";
+	font-size: 48px;
+	word-spacing: -12px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+#nav {
+	position: absolute;
+	top: 182px;
+	left: 53px;
+	background: #ddd;
+	color: #000;
+	width: 150px;
+	height: 125px;
+	display: block;
+	text-align: right;
+}
+.navlink {
+	color: #000;
+	font-family: "FLW Script";
+	font-size: 400%;
+	display: block;
+	line-height: 38px;
+	text-decoration: none;
+	margin-right: 6px;
+	margin-bottom: -3px;
+}
+.navlink:hover {
+	color: #99f;
+}
+.navlink:active {
+	color: #00f;
+}
+.navlink_current {
+	color: #aaa !important;
+	pointer-events: none;
+}
+#navlink_container {
+	position: relative;
+	top: -16px;
+}
+p {
+	max-width: 468px;
+}
