@@ -38,6 +38,12 @@ img {
 	left: 63px;
 	image-rendering: auto;
 }
+#butn {
+	position: absolute;
+	top: 69px;
+	left: 115px;
+	image-rendering: auto;
+}
 #main {
 	position: absolute;
 	top: 0px;
