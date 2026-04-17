@@ -73,6 +73,7 @@ img {
 	height: 125px;
 	display: block;
 	text-align: right;
+	z-index: 2 !important;
 }
 .navlink {
 	color: #000;
