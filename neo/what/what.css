@@ -1,0 +1,10 @@
+body {
+	background: #fc0;
+}
+.container {
+	background:	url("../assets/grfx/navui/bg_yellow.gif")
+				no-repeat;
+}
+.which {
+	bottom: 55px;
+}
