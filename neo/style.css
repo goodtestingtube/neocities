@@ -97,3 +97,11 @@ img {
 p {
 	max-width: 468px;
 }
+.which {
+	display: block;
+	background: #000;
+	width: 10px;
+	height: 2px;
+	position: absolute;
+	right: -10px;
+}
